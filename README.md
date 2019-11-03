@@ -1,6 +1,6 @@
 # Personal Website
 ## About
-This project is a personal website to give information about me and my projects. To visit my page click this [tobme.github.io](link)
+This project is a personal website to give information about me and my projects. To visit my page click this [link](tobme.github.io)
 
 ## Create your own github page
 1. Create a github repository named <Username>.github.io

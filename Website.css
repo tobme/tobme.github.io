@@ -1,0 +1,210 @@
+
+#bar {
+  background-color: #39393b;
+  width: 100%;
+  height: 50px;
+}
+#topMargin {
+  margin-top: 50px;
+  margin-bottom: 500px;
+}
+#meny {
+  background-color: #ffffff;
+  width: 8%;
+  height: 100vh;
+  float: left;
+}
+
+.menyItem {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+/*
+  border-style: solid;
+  border-width: thin;
+  border-color: #8ecbd1;
+*/
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+}
+.menyItem:hover {
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+#theRest {
+  background-color: #c7ccd6;
+  width: 100%;
+  height: 100vh;
+}
+#mainPage {
+  background-color: #c7ccd6;
+  height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#upperView {
+  position: relative;
+
+  background-color: #ffffff;
+  width: 100%;
+  height: 42vh;
+
+  border-style: solid;
+  border-width: thin;
+  border-color: #000000;
+}
+
+#projectUpperView {
+  position: relative;
+
+  background-color: #ffffff;
+  width: 100%;
+  height: 45vh;
+
+  border-style: solid;
+  border-width: thin;
+  border-color: #000000;
+}
+
+#contactBox {
+  float: right;
+  width: 25%;
+  height: 10vh;
+  margin-top: 300px;
+  margin-right: 10%;
+}
+.contactItem {
+  display: inline-block;
+
+  font-family: "Arial";
+  font-size: 20px;
+  margin-top: 2px;
+}
+#ContactImg {
+  width: 30px;
+  height: 30px;
+}
+
+#lowerView {
+  position: relative;
+
+  background-color: #ffffff;
+  width: 100%;
+  height: 53vh;
+  margin-top: 20px;
+
+  border-top-style: solid;
+  border-top-width: thick;
+  border-top-color: #5fc0ed;
+
+  /*border-style: solid;
+  border-width: thin;
+  border-color: #94928e;*/
+}
+#profilePic {
+  position: absolute;
+
+  border-radius: 50%;
+  width: 15%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 50px;
+
+  border-style: solid;
+  border-color: #e8e8e8;
+  border-width: 3px;
+}
+#backgroundImage {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+#bioText {
+  position: absolute;
+
+  font-family: "Arial";
+  font-size: 30px;
+  margin-left: 10%;
+  margin-top: 250px;
+  width: 78%;
+
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #5fc0ed;
+
+}
+#bioSubText {
+  position: absolute;
+
+  font-family: "Arial";
+  font-size: 20px;
+  margin-left: 11%;
+  margin-top: 300px;
+}
+#about {
+  font-family: "Arial";
+  font-size: 20px;
+  margin-left: 10%;
+}
+#programmingHeadline {
+  font-family: "Arial";
+  font-size: 30px;
+  margin-left: 20px;
+}
+#languageForm{
+  margin-left: 30px;
+  width:50%;
+  margin-top: 30px;
+}
+.languageItem {
+  display: inline-block;
+  font-family: "Arial";
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+
+  border-radius: 15px;
+  background: #5fc0ed;
+    padding: 10px;
+
+}
+#githubLink {
+  color: black;
+}
+#githubLink:hover {
+    color: purple;
+}
+#projectGif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:70%;
+}
+
+
+.projectHeadLine {
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #5fc0ed;
+  font-size: 50px;
+  background-color: black;
+  margin-bottom: 5px;
+  margin-top: 15px;
+
+
+  color: white;
+  font: bold 52px Helvetica, Arial, Sans-Serif;
+  text-shadow: 1px 1px#5fc0ed,
+               2px 2px #5fc0ed,
+               3px 3px #5fc0ed;
+}
+
+#projectAbout {
+
+}
